@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+header .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+header .search-form button{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header .search-form button:hover{
+    background-color: #ddd;
+}
+main{
+    padding: 20px;
+}
+.article-list ul{
+    list-style-type: none;
+}
+.article-list li{
+    margin-bottom: 10px;
+}
+.article-list a{
+    color: #333;
+    text-decoration: none;
+}
+.article-list a:hover{
+    text-decoration: underline;
+}
+.article-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+.article-content h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.article-content h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.article-content p{
+    margin-bottom: 20px;
+}
+.back-link{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.back-link:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
